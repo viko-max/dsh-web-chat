@@ -16,6 +16,15 @@ const iconData = 'data:image/svg+xml;base64,' + iconSvg.toString('base64')
 const repoUrl = 'https://github.com/viko-max/dsh-web-chat'
 const indexUrl = 'https://raw.githubusercontent.com/viko-max/dsh-web-chat/main/market/index.json'
 const publishTimestamp = Math.floor(Date.now() / 1000)
+// 传入 40 位提交 SHA 则用 git 源（仓库内 bundle/ 目录）；否则用 npm 源
+const gitCommit = process.argv[2]
+if (gitCommit && !/^[0-9a-f]{40}$/.test(gitCommit)) {
+  console.error('提交 SHA 须为 40 位小写十六进制')
+  process.exit(1)
+}
+const source = gitCommit
+  ? { type: 'git', url: repoUrl, commit: gitCommit, path: 'bundle' }
+  : { type: 'npm' }
 
 const entry = {
   name: 'dsh-web-chat',
@@ -34,7 +43,7 @@ const entry = {
     {
       version: '0.6.0',
       publishTimestamp,
-      source: { type: 'npm' },
+      source,
       engines: { dsh: '0.2.2-rc.3' },
     },
   ],

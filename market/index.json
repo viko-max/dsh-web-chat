@@ -71,9 +71,12 @@
       "versions": [
         {
           "version": "0.6.0",
-          "publishTimestamp": 1794847816,
+          "publishTimestamp": 1794848128,
           "source": {
-            "type": "npm"
+            "type": "git",
+            "url": "https://github.com/viko-max/dsh-web-chat",
+            "commit": "c7b19a2e66be0205637552944b2efa2992075d17",
+            "path": "bundle"
           },
           "engines": {
             "dsh": "0.2.2-rc.3"
