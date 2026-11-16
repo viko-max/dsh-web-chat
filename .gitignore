@@ -9,6 +9,7 @@ host-src/extracted/
 chat-demo-upstream/
 desktop/*.tgz
 test/.tmp/
+test/install-check/
 docs/plans/
 docs/test-reports/
 .DS_Store

@@ -59,6 +59,14 @@ npm publish dist-package/package --access public
 
 ## 已验证 / 待验证
 
-- ✅ `parseMarketIndex(index, indexUrl)` 通过；`marketInstallTarget` 返回 `dsh-web-chat@0.6.0`。
-- ✅ 图标为合法 SVG、内联 ≤32KiB；标题/描述含 en+zh。
-- ⏳ npm 包尚未发布（需 `npm login`）；索引 URL 尚未托管；Discover 实际渲染未在本环境目视确认。
+- ✅ `parseMarketIndex(index, indexUrl)` 通过；当前为 **git 源**，`marketInstallTarget` 返回
+  `git+https://github.com/viko-max/dsh-web-chat.git#c7b19a2e66be0205637552944b2efa2992075d17&path:/bundle`。
+- ✅ **隔离安装实测通过**：`pnpm add` 上述 git spec 成功安装 `dsh-web-chat@0.6.0`，`lib/index.js`、`demo/index.html`、`icon.svg`、`desktop.patch.yml` 齐全。
+- ✅ 图标为合法 SVG、内联 ≤32KiB；标题/描述含 en+zh；索引已托管于 GitHub raw。
+- ⏳ Discover 实际渲染与启用未在本环境目视确认（需启用 `plugin-market` bundle + 浏览器）。
+
+## 当前发布状态（git 渠道，已上线）
+
+- 仓库 `bundle/` 目录含 0.6.0 构建产物，固定提交 `c7b19a2e66be0205637552944b2efa2992075d17`。
+- 索引源：`https://raw.githubusercontent.com/viko-max/dsh-web-chat/main/market/index.json`
+- **发新版本流程**：改源码 → `node pack.mjs` → 用新 `dist-package/package/` 覆盖 `bundle/` → 提交得新 SHA → `node market/build-index.mjs <新SHA>`（同步改脚本内 version）→ 提交推送。索引始终指向含 `bundle/` 的那个提交。
