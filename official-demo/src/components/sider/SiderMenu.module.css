@@ -1,0 +1,142 @@
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--dsw-alias-label-tertiary);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: var(--dsw-alias-interactive-bg-hover);
+    color: var(--dsw-alias-label-secondary);
+  }
+}
+
+.chevron {
+  display: inline-flex;
+  transform: rotate(90deg);
+  transition: transform 0.15s ease;
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.chevronOpen {
+  transform: rotate(-90deg);
+}
+
+.menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 30;
+  width: 220px;
+  padding: 6px;
+  border-radius: 14px;
+  background-color: var(--dsw-specific-menu);
+  border: 1px solid var(--dsw-alias-border-l2);
+  box-shadow: var(--dsw-shadow-lv3);
+  animation: sider-menu-in 0.16s ease both;
+}
+
+@keyframes sider-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 9px 10px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--dsw-alias-label-primary);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover,
+  &.itemActive {
+    background-color: var(--dsw-alias-interactive-bg-hover);
+  }
+}
+
+.hint {
+  font-size: 11px;
+  color: var(--dsw-alias-label-caption);
+}
+
+.arrow {
+  display: inline-flex;
+  color: var(--dsw-alias-label-tertiary);
+  transition: transform 0.15s ease;
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.arrowOpen {
+  transform: rotate(90deg);
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 0 4px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px 8px 22px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--dsw-alias-label-secondary);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--dsw-alias-interactive-bg-hover);
+    color: var(--dsw-alias-label-primary);
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+    color: var(--dsw-alias-brand-text);
+  }
+}

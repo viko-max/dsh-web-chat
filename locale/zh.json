@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "DeepSeek 网页对话",
+    "description": "DeepSeek Harness 右侧栏对话面板。打开右侧栏选择「DeepSeek 对话」即可开始。支持多会话流式聊天、深度思考、联网搜索、附件、语音输入/朗读与 OCR；可在 DeepSeek 官方、Harness 已配置模型、讯飞 Spark 与自定义 OpenAI/Anthropic 兼容端点之间切换。在聊天里直接发绘画请求（如「画一只猫」/「draw a cat」）即可通过已配置的图像服务（千问、火山、硅基流动、腾讯混元/TokenHub 或自定义端点）inline 出图，配图库、大图查看器与编辑派生。另含每条回复的 token/TPS/缓存统计、长上下文自动压缩、对话导出（Markdown/文本/PNG 长图）、历史 ZIP 导入导出、个性化回复风格、自定义背景、定时自动化、应用连接（GitHub/Gmail/Outlook/QQ）与动画桌宠。API Key 存于 Harness 凭据存储，浏览器不持有密钥；聊天与生图请求会发送到你配置的服务商。关闭插件即移除面板并停止其后台自动化。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

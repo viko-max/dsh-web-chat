@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-package/
+host-src/extracted/
+.env
+.env.*
+!.env.example
+*.log
+chat-demo-upstream/
+desktop/*.tgz
+test/.tmp/
+docs/plans/
+docs/test-reports/
+.DS_Store

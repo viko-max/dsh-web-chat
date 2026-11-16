@@ -1,0 +1,51 @@
+.picker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  margin: 0 0 6px 4px;
+}
+
+/* 柔化：模型名做成轻量内联文本，而非突出的灰色胶囊 */
+.picker .trigger {
+  max-width: 280px;
+  height: auto;
+  min-height: 0;
+  padding: 3px 8px;
+  border: 0;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--dsw-alias-label-tertiary);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: var(--dsw-alias-interactive-bg-hover);
+    color: var(--dsw-alias-label-secondary);
+  }
+
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.picker .trigger svg {
+  width: 12px;
+  height: 12px;
+  opacity: 0.6;
+}
+
+.badge {
+  flex-shrink: 0;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-size: 10px;
+  line-height: 16px;
+  background-color: var(--dsw-alias-interactive-bg-hover);
+  color: var(--dsw-alias-label-caption);
+}

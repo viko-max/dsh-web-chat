@@ -1,0 +1,21 @@
+{
+  "name": "dsh-web-chat-host",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "dsh-web-chat Host 插件源码（从 0.3.0 bundle 高保真还原）",
+  "scripts": {
+    "restore": "node scripts/extract.mjs && node scripts/rebuild-src.mjs",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "eventsource-parser": "^3.0.0",
+    "imapflow": "2.11.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
