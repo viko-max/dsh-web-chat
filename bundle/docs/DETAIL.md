@@ -1,0 +1,1 @@
+![Chat panel with inline image generation, reply stats and an animated desk pet](preview.svg)

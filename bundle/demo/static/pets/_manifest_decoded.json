@@ -1,0 +1,362 @@
+[
+ {
+  "name": "blue-full-stretch",
+  "character": "blue-full",
+  "action": "伸懒腰",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 467414,
+  "webm_bytes": 83233,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-full-bubble",
+  "character": "blue-full",
+  "action": "接气泡",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 457194,
+  "webm_bytes": 75673,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-full-skirt",
+  "character": "blue-full",
+  "action": "理裙摆",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 438988,
+  "webm_bytes": 73123,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-full-lift",
+  "character": "blue-full",
+  "action": "被拎起",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 430736,
+  "webm_bytes": 72744,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-chibi-drowsy",
+  "character": "blue-chibi",
+  "action": "打瞌睡",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 736836,
+  "webm_bytes": 89078,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-chibi-listen",
+  "character": "blue-chibi",
+  "action": "侧耳听",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 734592,
+  "webm_bytes": 90201,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-chibi-puff",
+  "character": "blue-chibi",
+  "action": "鼓脸憋气",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 732258,
+  "webm_bytes": 78533,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "blue-chibi-startled",
+  "character": "blue-chibi",
+  "action": "被吓一跳",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 697176,
+  "webm_bytes": 85656,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "bucket-steal-fries",
+  "character": "bucket",
+  "action": "偷吃薯条",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 512055,
+  "webm_bytes": 79879,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "bucket-sniff",
+  "character": "bucket",
+  "action": "闻到香味",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 512224,
+  "webm_bytes": 112734,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "bucket-offer-chicken",
+  "character": "bucket",
+  "action": "把炸鸡递过来",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 512807,
+  "webm_bytes": 60547,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "bucket-wobble",
+  "character": "bucket",
+  "action": "桶身失衡",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 521638,
+  "webm_bytes": 140928,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "orange-book-read",
+  "character": "orange",
+  "action": "抱书翻页",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 628037,
+  "webm_bytes": 80903,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "orange-book-dust",
+  "character": "orange",
+  "action": "掸掉书页灰尘",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 640787,
+  "webm_bytes": 98075,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "orange-bookmark",
+  "character": "orange",
+  "action": "给书做标记",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 642361,
+  "webm_bytes": 87193,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "orange-stomp",
+  "character": "orange",
+  "action": "跺脚催促",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 686801,
+  "webm_bytes": 109842,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "harmony-notification",
+  "character": "harmony",
+  "action": "发现新消息",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 746027,
+  "webm_bytes": 88096,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "harmony-giggle",
+  "character": "harmony",
+  "action": "捂嘴偷笑",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 722205,
+  "webm_bytes": 96110,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "harmony-reading",
+  "character": "harmony",
+  "action": "认真读屏",
+  "mode": "loop",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 704732,
+  "webm_bytes": 79139,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "name": "harmony-shrug",
+  "character": "harmony",
+  "action": "摊手卡住",
+  "mode": "event",
+  "canvas": "640x360",
+  "frames": 16,
+  "duration_s": 1.92,
+  "fps": 8.333,
+  "gif_bytes": 725524,
+  "webm_bytes": 92529,
+  "first_last_mae": 0.0,
+  "corner_alpha": [
+   0,
+   0,
+   0
+  ]
+ }
+]

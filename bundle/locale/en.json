@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "DeepSeek web chat",
+    "description": "A right-sidebar chat panel for DeepSeek Harness. Open the right sidebar and choose \"DeepSeek 对话\" to start. Multi-session chat with streaming, deep thinking, web search, attachments, voice input/read-aloud and OCR; switch between DeepSeek official, Harness-configured models, iFlytek Spark and your own OpenAI/Anthropic-compatible endpoints. Type a drawing request (e.g. \"画一只猫\" / \"draw a cat\") to generate images inline via a configured image service (Qwen, Volcano, SiliconFlow, Tencent Hunyuan/TokenHub or a custom endpoint), with a gallery, large-image viewer and edit derivation. Includes per-reply token/TPS/cache stats, auto context compaction, conversation export (Markdown/text/PNG), history ZIP import/export, personalization, custom background, scheduled automation, app connectors (GitHub/Gmail/Outlook/QQ) and an animated desk pet. API keys are stored in Harness credentials, never in the browser; chat and image requests are sent to the providers you configure. Turning the plugin off removes the panel and stops its background automation.",
+    "detail": "docs/DETAIL.md"
+  }
+}

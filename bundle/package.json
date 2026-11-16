@@ -1,0 +1,44 @@
+{
+  "name": "dsh-web-chat",
+  "version": "0.6.0",
+  "description": "DeepSeek 对话面板、用量统计、语音、应用连接与桌宠",
+  "author": "meiko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viko-max/dsh-web-chat.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24.9.0",
+    "dsh": "0.2.2-rc.3"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./desktop.patch.yml": "./desktop.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./desktop.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "demo",
+    "desktop.patch.yml",
+    "README.md",
+    "LICENSE",
+    "LICENSE-*",
+    "locale",
+    "docs",
+    "icon.svg"
+  ]
+}
