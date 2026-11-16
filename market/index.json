@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH web chat plugin index",
+    "zh": "DSH 网页对话插件索引"
+  },
+  "description": {
+    "en": "Market index for the dsh-web-chat right-sidebar chat panel bundle.",
+    "zh": "dsh-web-chat 右侧栏对话面板 bundle 的市场索引。"
+  },
+  "metadata": {
+    "categories": {
+      "chat": {
+        "title": {
+          "en": "Chat",
+          "zh": "对话"
+        }
+      }
+    },
+    "labels": {
+      "ui": {
+        "title": {
+          "en": "UI",
+          "zh": "界面"
+        }
+      },
+      "host": {
+        "title": {
+          "en": "Host",
+          "zh": "Host"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-web-chat",
+      "title": {
+        "en": "DeepSeek web chat",
+        "zh": "DeepSeek 网页对话"
+      },
+      "description": {
+        "en": "A right-sidebar chat panel for DeepSeek Harness. Open the right sidebar and choose \"DeepSeek 对话\" to start. Multi-session chat with streaming, deep thinking, web search, attachments, voice input/read-aloud and OCR; switch between DeepSeek official, Harness-configured models, iFlytek Spark and your own OpenAI/Anthropic-compatible endpoints. Type a drawing request (e.g. \"画一只猫\" / \"draw a cat\") to generate images inline via a configured image service (Qwen, Volcano, SiliconFlow, Tencent Hunyuan/TokenHub or a custom endpoint), with a gallery, large-image viewer and edit derivation. Includes per-reply token/TPS/cache stats, auto context compaction, conversation export (Markdown/text/PNG), history ZIP import/export, personalization, custom background, scheduled automation, app connectors (GitHub/Gmail/Outlook/QQ) and an animated desk pet. API keys are stored in Harness credentials, never in the browser; chat and image requests are sent to the providers you configure. Turning the plugin off removes the panel and stops its background automation.",
+        "zh": "DeepSeek Harness 右侧栏对话面板。打开右侧栏选择「DeepSeek 对话」即可开始。支持多会话流式聊天、深度思考、联网搜索、附件、语音输入/朗读与 OCR；可在 DeepSeek 官方、Harness 已配置模型、讯飞 Spark 与自定义 OpenAI/Anthropic 兼容端点之间切换。在聊天里直接发绘画请求（如「画一只猫」/「draw a cat」）即可通过已配置的图像服务（千问、火山、硅基流动、腾讯混元/TokenHub 或自定义端点）inline 出图，配图库、大图查看器与编辑派生。另含每条回复的 token/TPS/缓存统计、长上下文自动压缩、对话导出（Markdown/文本/PNG 长图）、历史 ZIP 导入导出、个性化回复风格、自定义背景、定时自动化、应用连接（GitHub/Gmail/Outlook/QQ）与动画桌宠。API Key 存于 Harness 凭据存储，浏览器不持有密钥；聊天与生图请求会发送到你配置的服务商。关闭插件即移除面板并停止其后台自动化。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4KICA8cGF0aCBmaWxsPSIjNGM3ZmQ2IiBkPSJNOCA1aDIwYTUgNSAwIDAgMSA1IDV2MTJhNSA1IDAgMCAxLTUgNUgxNWwtNiA1di01SDhhNSA1IDAgMCAxLTUtNVYxMGE1IDUgMCAwIDEgNS01eiIvPgogIDxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xOCAyM2MtNSAwLTktNC05LTkgNCAxIDcgMyA5IDYgMi0zIDUtNSA5LTYgMCA1LTQgOS05IDl6Ii8+CiAgPGNpcmNsZSBjeD0iMTgiIGN5PSIxMi41IiByPSIxLjYiIGZpbGw9IiNmZmZmZmYiLz4KPC9zdmc+",
+      "author": "meiko",
+      "homepage": "https://github.com/viko-max/dsh-web-chat",
+      "repository": {
+        "url": "https://github.com/viko-max/dsh-web-chat"
+      },
+      "metadata": {
+        "category": "chat",
+        "keywords": [
+          "chat",
+          "deepseek",
+          "image-generation",
+          "desk-pet",
+          "sidebar",
+          "automation",
+          "对话",
+          "生图",
+          "桌宠",
+          "侧栏"
+        ],
+        "labels": [
+          "ui",
+          "host"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1794847816,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}
